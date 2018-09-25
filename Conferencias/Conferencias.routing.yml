@@ -1,0 +1,31 @@
+Conferencias:
+  path: /conferencias/list
+  defaults:
+    _controller: Drupal\Conferencias\Controller\ConferenciasController::lista
+  requirements:
+    _permission: 'Conferencias read'
+
+Conferenciasadd:
+  path: /conferencias/add
+  defaults:
+    _form: '\Drupal\conferencias\Form\Conferenciasaddform'
+    _title: 'Agregar conferencia'
+  requirements:
+    _permisions: 'Conferencias add'
+
+ConferenciasDelete:
+  path: '/Conferencias/delete/{id}'
+  defaults:
+    _form: 'Drupal\Conferencias\Form\ConferenciasDeleteForm'
+    _title: 'Eliminar conferencia'
+  requirements:
+    _permission: 'Conferencias delete'
+
+ConferenciasUpdate:
+   path: '/Conferencias/update/{id}'
+   defaults:
+    _form: 'Drupal\Conferencias\Form\ConferenciasUpdateForm'
+    _title: 'Modificiar conferencias'
+   requirements:
+     _permission: 'Conferencias update'
+

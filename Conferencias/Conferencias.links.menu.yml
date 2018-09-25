@@ -1,0 +1,6 @@
+Conferencias.list:
+  title: Conferencias
+  descripcion: 'Conferencias List'
+  parent: main
+  route_name: Conferencias
+  menu_name: main

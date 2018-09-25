@@ -1,0 +1,18 @@
+Conferencias read:
+  title: 'Leer Conferencia'
+  description: 'Lectura conferencias'
+  restrict access: false
+
+Conferencias add:
+    title: 'Agregar Conferencia'
+    description: 'Agregar nueva Conferencia'
+    restrict access: true
+Conferencias update:
+    title: 'Actualizar Conferencia'
+    description: 'Actualiza Conferencia'
+    restrict access: true
+
+Conferencias delete:
+    title: 'Elimina Conferencia'
+    description: 'Eliminar Conferencia'
+    restrict access: true

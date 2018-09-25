@@ -1,0 +1,15 @@
+<?php
+    function Conferencias_theme($existing,$type,$theme,$path){
+        $path=drupal_get_path('module','Conferencias');
+        return array(
+            'conf-list'=>array(
+                'variables'=>array('conf_list_table'=>NULL,'new_Conf'=>NULL),
+                'path'=>$path.'/theme'
+            ),
+            'conf-add'=>array(
+                'variables'=>array('algomas'=>NULL),
+                'path'=>$path.'/theme'
+            )
+        );
+    }
+?>
